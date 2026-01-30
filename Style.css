@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  padding: 6px 12px;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: yellow;
+}
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+textarea {
+  height: 80px;
+}
+
+form {
+  max-width: 400px;
+  margin-top: 20px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Me</title>
+</head>
+<body>
+  <div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+  <h1>Contact Me</h1>
+  <h2>Contact Form</h2>
+
+<form>
+  <label>Name:</label><br>
+  <input type="text" placeholder="Enter your name"><br><br>
+
+  <label>Email:</label><br>
+  <input type="email" placeholder="Enter your email"><br><br>
+
+  <label>Message:</label><br>
+  <textarea placeholder="Enter your message"></textarea><br><br>
+
+  <button type="button" onclick="showMessage()">Send</button>
+</form>
+
+  <p><b>Name:</b> Chhaya</p>
+  <p><b>Course:</b> ITI COPA</p>
+
+  <p>
+    <b>Phone:</b>
+    <a href="tel:9109957024">9109957024</a>
+  </p>
+
+  <p>
+    <b>Email:</b>
+    <a href="mailto:chhaya@gmail.com">chhaya@gmail.com</a>
+  </p>
+
+  <br>
+
+  <a href="index.html">
+    <button>Go Back</button>
+  </a>
+<script>
+  function showMessage() {
+    alert("Thank you! Your message has been sent 😊");
+
+    document.querySelector("form").reset();
+  }
+</script>
+</body>
+
+</html>
